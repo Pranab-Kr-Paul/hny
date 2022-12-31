@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Happy New Year</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="description" content="HappyNewYear">
+      <meta name="author" content="Vien Nguyen">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://www.congcuweb.net/webmaster/favicon/cache/android-chrome-192x192.ico">
+      <link rel="icon" type="image/png" sizes="32x32" href="https://www.congcuweb.net/webmaster/favicon/cache/android-chrome-192x192.ico">
+      <link rel="icon" type="image/png" sizes="16x16" href="https://www.congcuweb.net/webmaster/favicon/cache/android-chrome-192x192.ico">
+      <link rel="manifest" href="site.webmanifest">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+      <script src="jquery.fireworks.js"></script>
+    <script src="playsound.js"></script>
+  </head>
+
+  <body onload="sound()">
+    <section>
+      <div class="box">
+        <div class="circle">
+          <h2><br>তোমাকে জানাই শুভ নববর্ষ ২০২৩</h2>
+        </div>
+      </div>
+      <div class="buttonbox">
+
+        </div>
+    </section>
+
+    <div class="fireworks"></div>
+
+
+    <!--sound: false, // sound effect-->
+
+      <script>
+      $('.fireworks').fireworks({
+
+        opacity: 0.9,
+        width: '100%',
+        height: '100%'
+      });
+
+    </script>
+<br><br><br>
+  <audio src="sound.mp3" controls loop autoplay></audio>
+  </body>
+
+</html>
